@@ -3,7 +3,7 @@ package task;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class Weekly extends Task implements Repeat {
+public class Weekly extends Task {
     public Weekly(String name, String description, boolean workIs, LocalDateTime dateAndTime) {
         super(name, description, workIs, dateAndTime);
     }

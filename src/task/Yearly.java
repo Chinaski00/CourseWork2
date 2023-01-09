@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.chrono.ChronoLocalDate;
 
-public class Yearly extends Task implements Repeat{
+public class Yearly extends Task{
     public Yearly(String name, String description, boolean workIs, LocalDateTime dateAndTime) {
         super(name, description, workIs, dateAndTime);
     }
